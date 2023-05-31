@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>05/24/2023 14:33:29</Date>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>05/31/2023 15:29:56</Date>
 	<AppInfo>
-		<Version>2023.3.9160</Version>
+		<Version>2023.5.9257</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Pro (22H2) x64 - 10.0.19045.3031 (en-US)</Host>
+		<Host>Windows 10 Pro (22H2) x64 - 10.0.19045.2965 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Professional (22H2) x64 - 10.0.19045.2006 (en-US)</Version>
-		<GUID>{9CCD841D-A5FC-4A83-B85B-A526A1C9DF00}</GUID>
+		<Version mode="offline">Windows 10 Professional (22H2) x64 - 10.0.19045.2965 (en-US)</Version>
+		<GUID>{252A6003-0E7A-49F0-8970-2F7FE0436D30}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
-		<c>1527c705-839a-4832-9118-54d4Bd6a0c89 'File Picker'</c>
+		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
 		<c>3daudio 'Spatial Sound (3D Audio)'</c>
 		<c>aarsvc 'Agent Activation Runtime'</c>
 		<c>afunix 'Unix socket (AF_UNIX)'</c>
@@ -54,6 +54,7 @@
 		<c>devquerybroker 'DevQuery Background Discovery Broker'</c>
 		<c>diagnostics 'Diagnostics and Troubleshooting'</c>
 		<c>directaccess 'Direct Access Connection'</c>
+		<c>directml 'Direct Machine Learning (DirectML)'</c>
 		<c>diskdiagnosis 'Disk failure diagnostics'</c>
 		<c>diskmgmt32 'Disk Management - 32 bit'</c>
 		<c>diskquota32 'Disk Quota - 32 bit'</c>
@@ -63,7 +64,7 @@
 		<c>domainclientssvc 'IPsec Policy Agent'</c>
 		<c>dssvc 'Data Sharing Service'</c>
 		<c>dvdplay 'DVD Play'</c>
-		<c>E2A4F912-2574-4A75-9BB0-0D023378592B 'App Resolver'</c>
+		<c>e2a4f912-2574-4a75-9bb0-0d023378592b 'App Resolver'</c>
 		<c>eaphost 'Extensible Authentication Protocol (EAP)'</c>
 		<c>em 'Windows Setup EULA Mitigation (EM)'</c>
 		<c>embeddedmode 'Embedded Mode'</c>
@@ -75,7 +76,7 @@
 		<c>eventtracing 'Event Tracing for Windows (ETW)'</c>
 		<c>eventviewer32 'Event Viewer - 32 bit'</c>
 		<c>explorer32 'File Explorer - 32 bit'</c>
-		<c>F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE 'Add Folder Suggestions dialog'</c>
+		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Add Folder Suggestions dialog'</c>
 		<c>fciclient 'File Server Resource Manager'</c>
 		<c>fclip 'Microsoft Client License Flexible Platform'</c>
 		<c>fdphost 'Network Discovery'</c>
@@ -383,25 +384,25 @@
 		<c>mediastreamingtransmitter 'Media Streaming - Transmitter'</c>
 		<c>memorydiagnostic 'Memory Diagnostic'</c>
 		<c>messagingsvc 'Messaging Service'</c>
-		<c>Microsoft.AAD.BrokerPlugin 'Work or school account'</c>
-		<c>Microsoft.AccountsControl 'Email and accounts'</c>
-		<c>Microsoft.AsyncTextService 'AsyncTextService'</c>
-		<c>Microsoft.BioEnrollment 'Windows Hello Setup'</c>
-		<c>Microsoft.CredDialogHost 'Credential Dialog'</c>
-		<c>Microsoft.ECApp 'Eye Control'</c>
-		<c>Microsoft.LockApp 'Windows Default Lock Screen'</c>
-		<c>Microsoft.MicrosoftEdgeDevToolsClient 'Microsoft Edge DevTools Client'</c>
-		<c>Microsoft.Win32WebViewHost 'Desktop App Web Viewer'</c>
-		<c>Microsoft.Windows.AssignedAccessLockApp 'Assigned Access Lock app'</c>
-		<c>Microsoft.Windows.CallingShellApp 'Call'</c>
-		<c>Microsoft.Windows.CapturePicker 'Capture Picker'</c>
-		<c>Microsoft.Windows.ContentDeliveryManager 'Content Delivery Manager'</c>
-		<c>Microsoft.Windows.OOBENetworkCaptivePortal 'Captive Portal Flow'</c>
-		<c>Microsoft.Windows.OOBENetworkConnectionFlow 'Network Connection Flow'</c>
-		<c>Microsoft.Windows.ParentalControls 'Microsoft family features'</c>
-		<c>Microsoft.Windows.PinningConfirmationDialog 'PinningConfirmationDialog'</c>
-		<c>Microsoft.Windows.SecureAssessmentBrowser 'Take a Test'</c>
-		<c>Microsoft.Windows.XGpuEjectDialog 'Safely Remove Device'</c>
+		<c>microsoft.aad.brokerplugin 'Work or school account'</c>
+		<c>microsoft.accountscontrol 'Email and accounts'</c>
+		<c>microsoft.asynctextservice 'AsyncTextService'</c>
+		<c>microsoft.bioenrollment 'Windows Hello Setup'</c>
+		<c>microsoft.creddialoghost 'Credential Dialog'</c>
+		<c>microsoft.ecapp 'Eye Control'</c>
+		<c>microsoft.lockapp 'Windows Default Lock Screen'</c>
+		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
+		<c>microsoft.win32webviewhost 'Desktop App Web Viewer'</c>
+		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
+		<c>microsoft.windows.callingshellapp 'Call'</c>
+		<c>microsoft.windows.capturepicker 'Capture Picker'</c>
+		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
+		<c>microsoft.windows.oobenetworkcaptiveportal 'Captive Portal Flow'</c>
+		<c>microsoft.windows.oobenetworkconnectionflow 'Network Connection Flow'</c>
+		<c>microsoft.windows.parentalcontrols 'Microsoft family features'</c>
+		<c>microsoft.windows.pinningconfirmationdialog 'PinningConfirmationDialog'</c>
+		<c>microsoft.windows.secureassessmentbrowser 'Take a Test'</c>
+		<c>microsoft.windows.xgpuejectdialog 'Safely Remove Device'</c>
 		<c>midi 'Microsoft GS Wavetable SW Synth (MIDI)'</c>
 		<c>migwiz 'Easy Transfer'</c>
 		<c>mmc32 'Microsoft Management Console (MMC) - 32 bit'</c>
@@ -414,7 +415,7 @@
 		<c>mpeg2splitter 'MPEG-2 Splitter'</c>
 		<c>naturalauthentication 'Natural Authentication'</c>
 		<c>ncdauto 'Network Connected Devices Auto-Setup'</c>
-		<c>NcsiUwpApp 'Network Connectivity Status Indicator (NCSI)'</c>
+		<c>ncsiuwpapp 'Network Connectivity Status Indicator (NCSI)'</c>
 		<c>ndiscap 'NDIS Packet Capturing (NDISCAP)'</c>
 		<c>ndu 'Network Data Usage Monitoring Driver'</c>
 		<c>netcenter 'Network and Sharing Center'</c>
@@ -507,7 +508,7 @@
 		<c>wfmmc32 'Windows Firewall (management console) - 32 bit'</c>
 		<c>wificloudstore 'WiFi Sync Provider'</c>
 		<c>winai 'Windows AI Machine Learning'</c>
-		<c>Windows.CBSPreview 'Windows Barcode Preview'</c>
+		<c>windows.cbspreview 'Windows Barcode Preview'</c>
 		<c>windows.devicesflow32 'Devices Flow - 32 bit'</c>
 		<c>windowstogo 'Windows To Go'</c>
 		<c>winrm 'Windows Remote Management (WS-Management)'</c>
@@ -668,6 +669,7 @@
 					<FullName>GAMEROS</FullName>
 					<ProductKey>
 						<Key></Key>
+						<WillShowUI>OnError</WillShowUI>
 					</ProductKey>
 				</UserData>
 			</component>
@@ -722,7 +724,6 @@
 				<Tweak name="Explorer\HubMode">1</Tweak>
 				<Tweak name="Explorer\ConfirmFileDelete">1</Tweak>
 				<Tweak name=".jpg\PhotoViewer.FileAssoc.Tiff">PhotoViewer.FileAssoc.Tiff</Tweak>
-				<Tweak name="Explorer\DisableSearchBoxSuggestions">1</Tweak>
 				<Tweak name="Explorer\NoNetConnectDisconnect">0</Tweak>
 				<Tweak name="Advanced\ShowInfoTip">1</Tweak>
 				<Tweak name="Advanced\ShowSyncProviderNotifications">0</Tweak>
@@ -888,7 +889,7 @@
 	</Tweaks>
 	<ApplyOptions>
 		<ImageTasks>
-			<Task>imageSaveRebuild</Task>
+			<Task>imageSaveTrim</Task>
 			<Task>imageFormatWim</Task>
 		</ImageTasks>
 		<AutoIsoFile>GAMEROS_FOR_DESKTOPS.iso</AutoIsoFile>
