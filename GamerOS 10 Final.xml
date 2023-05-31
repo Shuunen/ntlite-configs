@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>05/31/2023 15:29:56</Date>
+	<Date>05/31/2023 16:23:05</Date>
 	<AppInfo>
 		<Version>2023.5.9257</Version>
 		<Licensed>Yes</Licensed>
@@ -9,7 +9,7 @@
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 10 Professional (22H2) x64 - 10.0.19045.2965 (en-US)</Version>
-		<GUID>{252A6003-0E7A-49F0-8970-2F7FE0436D30}</GUID>
+		<GUID>{DE873477-BD4F-4FCB-B73C-0AC19D797589}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
@@ -18,7 +18,6 @@
 		<c>afunix 'Unix socket (AF_UNIX)'</c>
 		<c>alg 'Application Layer Gateway Service'</c>
 		<c>alljoyn 'AllJoyn Router Service'</c>
-		<c>appv 'Application Virtualization (App-V)'</c>
 		<c>appxsupport32 'Modern App support - 32 bit'</c>
 		<c>asimov 'Telemetry Client'</c>
 		<c>assignedaccess 'Assigned Access'</c>
@@ -70,7 +69,6 @@
 		<c>embeddedmode 'Embedded Mode'</c>
 		<c>encprovider 'Windows Encryption Provider Host Service'</c>
 		<c>enhancedstorage 'Enhanced Storage'</c>
-		<c>enterprisedataprotection 'Enterprise Data Protection (EDP/WIP)'</c>
 		<c>errorreporting 'Windows Error Reporting'</c>
 		<c>eudcedit 'Private Character Editor'</c>
 		<c>eventtracing 'Event Tracing for Windows (ETW)'</c>
@@ -132,7 +130,6 @@
 		<c>kl-00000408 'Greek'</c>
 		<c>kl-0000040a 'Spanish'</c>
 		<c>kl-0000040b 'Finnish'</c>
-		<c>kl-0000040c 'French'</c>
 		<c>kl-0000040d 'Hebrew'</c>
 		<c>kl-0000040e 'Hungarian'</c>
 		<c>kl-0000040f 'Icelandic'</c>
@@ -340,7 +337,6 @@
 		<c>langenglishgb 'English (GB)'</c>
 		<c>langestonian 'Estonian'</c>
 		<c>langfinnish 'Finnish'</c>
-		<c>langfrench 'French'</c>
 		<c>langfrenchcanadian 'French (Canadian)'</c>
 		<c>langgerman 'German'</c>
 		<c>langgreek 'Greek'</c>
@@ -423,6 +419,7 @@
 		<c>nowplaying 'Now Playing Session Manager'</c>
 		<c>offlinefiles 'Offline Files'</c>
 		<c>onecoreuapcommonproxystub32 'OneCore UAP Common Proxy Stub - 32 bit'</c>
+		<c>onedrive</c>
 		<c>otherthemes 'Windows Personalization themes'</c>
 		<c>payments</c>
 		<c>pdfreader 'Windows Reader (PDF)'</c>
@@ -448,16 +445,20 @@
 		<c>rasmans 'Remote Access Connection Manager'</c>
 		<c>rdmaping 'Remote Direct Memory Access (RDMA) ping tool'</c>
 		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
+		<c>rdpserver 'Remote Desktop Server'</c>
+		<c>rdpserverlic 'Remote Desktop Licensing'</c>
 		<c>reliabilityanalysis 'Reliability Analysis Services'</c>
 		<c>remoteaccessservice 'Routing and Remote Access Service'</c>
 		<c>remoteaccesssupport 'Routing and Remote Access support'</c>
 		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
+		<c>remoteassistance 'Remote Assistance'</c>
+		<c>remotefx</c>
+		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
 		<c>remoteregistry 'Remote Registry'</c>
 		<c>retaildemo 'Retail Demo Content'</c>
 		<c>rightsmanagement 'Rights Management support'</c>
 		<c>rpclocator 'Remote Procedure Call (RPC) Locator'</c>
 		<c>secedit 'Local Security Policy Editor'</c>
-		<c>securestartup 'BitLocker Drive Encryption'</c>
 		<c>sendmail 'Send To Mail and Desktop'</c>
 		<c>sens 'System Event Notification Service (SENS)'</c>
 		<c>servicesmmc32 'Services (management console) - 32 bit'</c>
@@ -569,7 +570,10 @@
 			<Machine enabled="no">VMware VM</Machine>
 		</MachineDrivers>
 	</Compatibility>
-	<Features></Features>
+	<Features>
+		<Feature name="Printing-Foundation-LPDPrintService">true</Feature>
+		<Feature name="Printing-Foundation-LPRPortMonitor">true</Feature>
+	</Features>
 	<Packages></Packages>
 	<Commands>
 		<PostUpdates>
@@ -586,14 +590,14 @@
 		<EditionPrompt>true</EditionPrompt>
 		<settings pass="oobeSystem">
 			<component name="Microsoft-Windows-International-Core">
-				<InputLocale>0409:00000409</InputLocale>
+				<InputLocale>0409:0000040c</InputLocale>
 				<SystemLocale>en-US</SystemLocale>
 				<UILanguage>en-US</UILanguage>
 				<UILanguageFallback>en-US</UILanguageFallback>
 				<UserLocale>en-US</UserLocale>
 			</component>
 			<component name="Microsoft-Windows-Shell-Setup">
-				<TimeZone>Eastern Standard Time</TimeZone>
+				<TimeZone>Romance Standard Time</TimeZone>
 				<AutoLogon>
 					<Enabled>true</Enabled>
 					<LogonCount>9999999</LogonCount>
@@ -608,7 +612,7 @@
 					<HideLocalAccountScreen>true</HideLocalAccountScreen>
 					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
 					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
-					<NetworkLocation>Other</NetworkLocation>
+					<NetworkLocation>Home</NetworkLocation>
 					<ProtectYourPC>3</ProtectYourPC>
 					<SkipMachineOOBE>true</SkipMachineOOBE>
 					<SkipUserOOBE>true</SkipUserOOBE>
@@ -635,7 +639,7 @@
 		</settings>
 		<settings pass="windowsPE">
 			<component name="Microsoft-Windows-International-Core-WinPE">
-				<InputLocale>0409:00000409</InputLocale>
+				<InputLocale>0409:0000040c</InputLocale>
 				<SystemLocale>en-US</SystemLocale>
 				<UILanguage>en-US</UILanguage>
 				<UILanguageFallback>en-US</UILanguageFallback>
@@ -695,20 +699,19 @@
 				<Tweak name="Desktop\ForegroundLockTimeout">0</Tweak>
 				<Tweak name="Explorer\HideSCAMeetNow">1</Tweak>
 				<Tweak name="Desktop\MenuShowDelay">200</Tweak>
-				<Tweak name="Feeds\ShellFeedsTaskbarViewMode">1</Tweak>
+				<Tweak name="Feeds\ShellFeedsTaskbarViewMode">2</Tweak>
 				<Tweak name="PushNotifications\NoCloudApplicationNotification">1</Tweak>
 				<Tweak name="Desktop\ScreenSaverIsSecure">0</Tweak>
 				<Tweak name="Mouse\MouseSpeed">0</Tweak>
 				<Tweak name="QuietHours\Enable">0</Tweak>
 				<Tweak name="Start\HideRecentJumplists">1</Tweak>
-				<Tweak name="Search\SearchboxTaskbarMode">1</Tweak>
+				<Tweak name="Search\SearchboxTaskbarMode">0</Tweak>
 				<Tweak name="Advanced\DisablePreviewDesktop">1</Tweak>
 				<Tweak name="People\PeopleBand">0</Tweak>
 				<Tweak name="Advanced\TaskbarGlomLevel">2</Tweak>
 				<Tweak name="Keyboard\PrintScreenKeyForSnippingEnabled">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Explorer">
-				<Tweak name="Explorer\EnableAutoTray">0</Tweak>
 				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
 				<Tweak name="AutoplayHandlers\DisableAutoplay">1</Tweak>
 				<Tweak name="Explorer\EnableLegacyBalloonNotifications">1</Tweak>
@@ -718,10 +721,10 @@
 				<Tweak name="cmd\HideBasedOnVelocityId">0</Tweak>
 				<Tweak name="Advanced\FolderContentsInfoTip">1</Tweak>
 				<Tweak name="Explorer\NoRecentDocsHistory">1</Tweak>
-				<Tweak name="Advanced\NavPaneExpandToCurrentFolder">0</Tweak>
+				<Tweak name="Advanced\NavPaneExpandToCurrentFolder">1</Tweak>
 				<Tweak name="Advanced\LaunchTo">1</Tweak>
 				<Tweak name="Explorer\NoReadingPane">1</Tweak>
-				<Tweak name="Explorer\HubMode">1</Tweak>
+				<Tweak name="Explorer\HubMode">0</Tweak>
 				<Tweak name="Explorer\ConfirmFileDelete">1</Tweak>
 				<Tweak name=".jpg\PhotoViewer.FileAssoc.Tiff">PhotoViewer.FileAssoc.Tiff</Tweak>
 				<Tweak name="Explorer\NoNetConnectDisconnect">0</Tweak>
@@ -891,6 +894,7 @@
 		<ImageTasks>
 			<Task>imageSaveTrim</Task>
 			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
 		</ImageTasks>
 		<AutoIsoFile>GAMEROS_FOR_DESKTOPS.iso</AutoIsoFile>
 		<AutoIsoLabel>GAMEROS</AutoIsoLabel>
