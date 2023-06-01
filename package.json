@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "author": "Romain Racamier-Lafon <romain.racamier@gmail.com>",
+  "description": "Presets for NTLite",
+  "keywords": [
+    "NTLite",
+    "presets",
+    "Windows",
+    "Windows 10"
+  ],
+  "name": "@shuunen/ntlite-configs",
+  "private": true,
+  "scripts": {
+    "test": "echo no test"
+  },
+  "version": "0.0.0"
+}
