@@ -8,3 +8,10 @@ This repository is here to maintain, share, and improve his excellent work that 
 ![2ndimage](./images/ntlite-finalcustom.png)
 
 ![3ndimage](./images/ntlite-latest.png)
+
+## Todo
+
+- [ ] windows non-automatic updates is annoying, set it back to default (auto I guess)
+- [ ] file deletion popup is annoying, set it back to defaults (no popup for standard deletion & popup for shift+delete I guess)
+- [ ] webcam is not working... ?
+- [ ] expanded icons with labels in taskbar are annoying, set it back to default (collapsed/small I guess)
